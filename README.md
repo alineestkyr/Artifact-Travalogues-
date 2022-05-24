@@ -5,11 +5,14 @@ This project documents the movement of museum artifacts throughout time and make
 To reflect on ownership, power, and history. 
 
 ## Organization 
-Each folder will be named after an artifact. Each folder will contain two different files:
-1. jpeg 
-2. html 
+Each folder will be named after an artifact. Each folder will contain two html files:
+1. nameofartifact.html
+2. firstthreelettersofartifactname-sourcesheet.html
 
-The jpeg file will be the image of the artifact. The html file is where you will upload research and document your sources.
+The first html file is where you will add the image of the artifact and the research. The second html file documents the links to external sources you used. 
+
+Here is an example:
+
 
 ## For contributors
 1. Create new file folders for any artifacts that you think are worth researching. 
@@ -21,4 +24,7 @@ The jpeg file will be the image of the artifact. The html file is where you will
 2. Look for the *who, what, where and when.* For instance, take note of who (person or institution) owned the artifact, where it was located and for what period of time. 
 
 ## Documenting external sources 
-Documenting sources on this project is simple. There is no need to use any style guide, but it is important to identify where your facts came from. <will insert an example of the format via an image> 
+Documenting sources on this project is simple. There is no need to use any style guide, but it is important to identify where your facts came from. 
+
+Here is an example:
+
