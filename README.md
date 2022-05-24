@@ -1,4 +1,4 @@
-# Artifact-Travalogues-
+# Artifact-Travelogues-
 This project documents the movement of museum artifacts throughout time and makes it available for public access. 
 
 ## Theoretical aims 
