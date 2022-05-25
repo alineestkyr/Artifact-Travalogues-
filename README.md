@@ -47,10 +47,11 @@ Each folder will be named after an artifact. Each folder will eventually contain
 * Use this format to track sources: 
 
 ### 1. *Quoted fact from html file*
-       https://link-url-here.org
+       [This is an external link to history.com](https://www.history.com/)
 
 ### 2. *Quoted fact from html file*
-       https://link-url-here.org
+       [This is an external link to history.com](https://www.history.com/)
+
 
  
 
