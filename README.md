@@ -28,3 +28,5 @@ Documenting sources on this project is simple. There is no need to use any style
 
 Here is an example:
 
+(the README page is in progress)
+
