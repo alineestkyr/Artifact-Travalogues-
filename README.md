@@ -15,8 +15,16 @@ Each folder will be named after an artifact. Each folder must contain four files
 3. Contribute information about the history of the artifact's movement. 
 4. Proofread and update information.
 
-# Steps for creating a new artifact contribution 
-Fork 
+# How to make edits 
+
+## Forking and Pull Requests:
+### Fork the Repository to work on your own local copy. 
+### Create a pull request to push your changes to the original repository for Artifact-Travelogues 
+
+[image will be inserted]
+
+## Creating a new artifact folder 
+###
 
 
 
