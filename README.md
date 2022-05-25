@@ -15,7 +15,7 @@ Each folder will be named after an artifact. Each folder must contain four files
 3. Contribute information about the history of the artifact's movement. 
 4. Proofread and update information.
 
-#Steps for creating a new artifact contribution 
+# Steps for creating a new artifact contribution 
 Fork 
 
 
