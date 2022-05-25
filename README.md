@@ -24,7 +24,7 @@ Here is an example:
 2. Look for the *who, what, where and when.* For instance, take note of who (person or institution) owned the artifact, where it was located and for what period of time. 
 
 ## Documenting external sources 
-Documenting sources on this project is simple. There is no need to use any style guide, but it is crucial to identify where your facts come from. 
+It's crucial to identify where your facts come from. The citation guide is the Chicago Manual of Style (17th edition)  
 
 Here is an example:
 
