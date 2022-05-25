@@ -7,7 +7,7 @@ To reflect on ownership, power, and history.
 ## Organization 
 Each folder will be named after an artifact. Each folder will contain two html files:
 1. nameofartifact.html
-2. firstthreelettersofartifactname-sourcesheet.html
+2. firstthreelettersofartifactname-sourcesheet.md
 
 The first html file is where you will add the image of the artifact and the research. The second html file documents the links to external sources you used. 
 
