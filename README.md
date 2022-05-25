@@ -24,7 +24,7 @@ Each folder will be named after an artifact. Each folder will eventually contain
 ## Creating a new artifact folder 
 * Press the Add file button. Select the option to create a new file. 
 * Fill in the Name your file option by typing in the artifact's name. The artifacts name must end with a forward slash '/'.
-* You have created a new file! In order to save your changes, you must create a file to be stored in the folder. Fill in the Name your file textbook with a filename. For example, nameofartifact.html. 
+* You have created a new file! In order to save your changes, you must create a file to be stored in the folder. Fill in the Name your file textbox with a filename. For example, nameofartifact.html. 
 * Scroll to the bottom of the page to the Commit new file box. Select the option to 'Commit to main branch.'
 * On your local repository, go to Pull Requests and select rhe Create new pull request button.
 * Add a description indicating the changes you made. 
@@ -43,9 +43,8 @@ Each folder will be named after an artifact. Each folder will eventually contain
 2. Look for the *who, what, where and when.* For instance, take note of who (person or institution) owned the artifact, where it was located and for what period of time. 
 
 ## Documenting external sources 
-* It's crucial to identify where your facts come from.
 * Citations will be tracked on the markdown sheet in each folder. 
-* For now, use this format to track sources: 
+* Use this format to track sources: 
 
 #### 1. *Quoted fact from html file*
     - [Link text Here](https://link-url-here.org)
@@ -53,7 +52,7 @@ Each folder will be named after an artifact. Each folder will eventually contain
 #### 2. *Quoted fact from html file*
     - [Link text Here](https://link-url-here.org)
 
-Here is a link: 
+ 
 
 (the README page is in progress)
 
