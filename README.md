@@ -48,10 +48,10 @@ Each folder will be named after an artifact. Each folder will eventually contain
 * For now, use this format to track sources: 
 
 ### 1. *Quoted fact from html file*
-    * link to source 
+    * URL link to source 
 
 ### 2. *Quoted fact from html file*
-    * link to source 
+    * URL link to source 
 
 Here is a link: 
 
