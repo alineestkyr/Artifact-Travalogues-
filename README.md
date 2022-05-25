@@ -11,7 +11,7 @@ Each folder will be named after an artifact. Each folder will contain two html f
 
 The first html file is where you will add the image of the artifact and the research. The markdown file tracks the links to external sources you used. 
 
-Here is an example:
+Here is an example: 
 
 
 ## For contributors
