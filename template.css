@@ -1,11 +1,13 @@
 
-header {
+html {
   background-color: #cdcdcd;
   
 }
 
 h1 {
-  font-family: courier; 
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  color: white;
 }
 
 
@@ -20,4 +22,5 @@ p {
 ul {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
   }
+
   
