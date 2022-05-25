@@ -46,11 +46,11 @@ Each folder will be named after an artifact. Each folder will eventually contain
 * Citations will be tracked on the markdown sheet in each folder. 
 * Use this format to track sources: 
 
-#### 1. *Quoted fact from html file*
-        https://link-url-here.org
+### 1. *Quoted fact from html file*
+       https://link-url-here.org
 
-#### 2. *Quoted fact from html file*
-        https://link-url-here.org
+### 2. *Quoted fact from html file*
+       https://link-url-here.org
 
  
 
