@@ -1,5 +1,5 @@
 # Artifact-Travelogues-
-This project documents the movement of museum artifacts throughout time and makes it available for public access. This project uses very basic HTML and CSS, so it is beginner and non-programmer friendly. Contributors who are more comfortable with code are encouraged to make edits and suggestions to improve the format.  
+This project documents the movement of ancient artifacts throughout time and makes it available for public access. This project uses very basic HTML and CSS, so it is beginner and non-programmer friendly. Contributors who are more comfortable with code are encouraged to make edits and suggestions to improve the format.  
 
 ## Organization 
 Each folder will be named after an artifact. Each folder will eventually contain four files:
