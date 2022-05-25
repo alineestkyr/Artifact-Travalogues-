@@ -34,7 +34,7 @@ Each folder will be named after an artifact. Each folder will eventually contain
 
 ## Rules for adding and editing files
 * See Organization for the appropriate file names and types for each folder. 
-* Use template.html and template.css to create your html and css files. Just copy and paste the code into the new files. 
+* Use template.html and template.css to create your html and css files. You copy and paste the code into the new files. However, if you are more experienced in coding and can suggest a better layout, please feel free to submit a pull request! 
 * You must upload a jpeg file of the artifact to its respective folder. Otherwise, the embeded image will not work in the html file.
 
 
@@ -44,7 +44,11 @@ Each folder will be named after an artifact. Each folder will eventually contain
 
 ## Documenting external sources 
 * It's crucial to identify where your facts come from.
-* Cita
+* Citations will be tracked on the markdown sheet in each folder. 
+* For now, use this format to track sources: 
+
+< Quoted fact from html file/>
+* link to source 
 
 Here is a link: 
 
