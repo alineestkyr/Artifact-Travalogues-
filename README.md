@@ -41,6 +41,7 @@ Each folder will be named after an artifact. Each folder will eventually contain
 ## Research tips
 1. For good quality images, try Google Arts and Culture and museum websites.
 2. Look for the *who, what, where and when.* For instance, take note of who (person or institution) owned the artifact, where it was located and for what period of time. 
+3. Use websites and other accessible online sources.
 
 ## Documenting external sources 
 * Citations will be tracked on the markdown sheet in each folder. 
