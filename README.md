@@ -10,16 +10,16 @@ Each folder will be named after an artifact. Each folder must contain four files
 
 
 ## Activities
-1. Create new file folders for any artifacts that you think are worth researching. 
-2. Find and upload images files to the respective folders.
-3. Contribute information about the history of the artifact's movement. 
-4. Proofread and update information.
+* Create new file folders for any artifacts that you think are worth researching. 
+* Find and upload images files to the respective folders.
+* Contribute information about the history of the artifact's movement. 
+* Proofread and update information.
 
 # How to make edits 
 
 ## Forking and Pull Requests:
-### Fork the Repository to work on your own local copy. 
-### Create a pull request to push your changes to the original repository for Artifact-Travelogues 
+### * Fork the Repository to work on your own local copy. 
+### * Create a pull request to push your changes to the original repository for Artifact-Travelogues 
 
 [image will be inserted]
 
