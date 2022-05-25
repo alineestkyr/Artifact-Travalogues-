@@ -9,7 +9,7 @@ Each folder will be named after an artifact. Each folder will contain two html f
 1. nameofartifact.html
 2. firstthreelettersofartifactname-sourcesheet.md
 
-The first html file is where you will add the image of the artifact and the research. The second html file documents the links to external sources you used. 
+The first html file is where you will add the image of the artifact and the research. The markdown file tracks the links to external sources you used. 
 
 Here is an example:
 
