@@ -18,13 +18,21 @@ Each folder will be named after an artifact. Each folder must contain four files
 # How to make edits 
 
 ## Forking and Pull Requests:
-### -Fork the Repository to work on your own local copy. 
-### -Create a pull request to push your changes to the original repository for Artifact-Travelogues 
+### - Fork the Repository to work on your own local copy. 
+### - After making your edits, create a pull request to push your changes to the original repository for Artifact-Travelogues 
 
 [image will be inserted]
 
 ## Creating a new artifact folder 
-###
+### - Press the Add file button. Select the option to create a new file. 
+### - Fill in the Name your file option by typing in the artifact's name. The artifacts name must end with a forward slash '/'.
+### - You have created a new file! In order to save your changes, you must create a file to be stored in the folder. Fill in the Name your file textbook with a filename. For example, nameofartifact.html. 
+### - Scroll to the bottom of the page to the Commit new file box. Select the option to 'Commit to main branch.'
+### - On your local repository, go to Pull Requests and select rhe Create new pull request button.
+### - Add a description indicating the changes you made. 
+### - When you are satisfied, click the button to Create pull request.
+
+## Adding and editing files
 
 
 
