@@ -18,8 +18,8 @@ Each folder will be named after an artifact. Each folder must contain four files
 # How to make edits 
 
 ## Forking and Pull Requests:
-### * Fork the Repository to work on your own local copy. 
-### * Create a pull request to push your changes to the original repository for Artifact-Travelogues 
+### -Fork the Repository to work on your own local copy. 
+### -Create a pull request to push your changes to the original repository for Artifact-Travelogues 
 
 [image will be inserted]
 
