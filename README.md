@@ -56,5 +56,4 @@ Each folder will be named after an artifact. Each folder will eventually contain
 
  
 
-(the README page is in progress)
 
