@@ -1,23 +1,25 @@
 # Artifact-Travelogues-
 This project documents the movement of museum artifacts throughout time and makes it available for public access. 
 
-## Theoretical aims 
-To reflect on ownership, power, and history. 
-
 ## Organization 
-Each folder will be named after an artifact. Each folder will contain two html files:
+Each folder will be named after an artifact. Each folder must contain four files:
 1. nameofartifact.html
-2. firstthreelettersofartifactname-sourcesheet.md
-
-The first html file is where you will add the image of the artifact and the research. The markdown file tracks the links to external sources you used. 
-
-Here is an example: 
+2. nameofartifact.css
+3. firstthreelettersofartifactname-sourcesheet.md
+4. artifactname.jpeg 
 
 
-## For contributors
+## Activities
 1. Create new file folders for any artifacts that you think are worth researching. 
-2. Uploading images files to the respective folders.
+2. Find and upload images files to the respective folders.
 3. Contribute information about the history of the artifact's movement. 
+4. Proofread and update information.
+
+#Steps for creating a new artifact contribution 
+Fork 
+
+
+
 
 ## Research tips
 1. For good quality images, try Google Arts and Culture and museum websites.
@@ -26,7 +28,7 @@ Here is an example:
 ## Documenting external sources 
 It's crucial to identify where your facts come from. The citation guide is the Chicago Manual of Style (17th edition)  
 
-Here is an example:
+Here is a link: 
 
 (the README page is in progress)
 
