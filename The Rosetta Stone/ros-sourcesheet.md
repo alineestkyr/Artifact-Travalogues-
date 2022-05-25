@@ -1,3 +1,3 @@
-1. Photograph of the Rosetta Stone 
-## [This is an external link to world-archeology.com] (https://www.world-archaeology.com/great-discoveries/rosetta-stone/)
+1. Photograph of the Rosetta Stone <br>
+(https://www.world-archaeology.com/great-discoveries/rosetta-stone/)
 
