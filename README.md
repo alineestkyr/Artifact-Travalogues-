@@ -51,6 +51,11 @@ Each folder will be named after an artifact. Each folder will eventually contain
                                    
 2. *Quoted fact from html file* <br>
        (https://www.history.com/)
+       
+## Link to the Github Pages:
+
+https://alineestkyr.github.io/Artifact-Travelogues-/
+
 
 
  
