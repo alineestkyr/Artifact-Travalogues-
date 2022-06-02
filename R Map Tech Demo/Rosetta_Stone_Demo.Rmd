@@ -1,0 +1,133 @@
+---
+title: "Artifact Travelogue Demo"
+author: "Cody Micah Carmichael, MPH, CPH"
+date: "5/28/2022"
+output: html_document
+---
+```{r setup, include=FALSE}
+#uncomment line below if needed.
+#install.packages('leaflet')
+library(leaflet)
+
+```
+```{r functions, include=FALSE}
+
+
+#Creates a standardized data frame. Can be replaced if needed.
+#May want to add a functionality for "years of ownership_start and _end, e.g. 1808, 2022, so that way we can sort entries based on that. 
+create_dataframe = function(Name="Empty_For_Now", ImageLink="Empty_For_Now",
+                            OwnName="Empty_For_Now", OwnDuration_years="Empty_For_Now",
+                            OwnLoc="Empty_For_Now", OwnLat="Empty_For_Now",
+                            OwnLong="Empty_For_Now", DescUpdate="Empty_For_Now", 
+                            Origin="Empty_For_Now", OriginLat="Empty_For_Now", 
+                            OriginLong="Empty_For_Now", Notes="Empty_For_Now"){
+  
+  Art_DF <- data.frame(Name, ImageLink, OwnName, OwnDuration_years, OwnLoc, OwnLat, OwnLong, DescUpdate, Origin, OriginLat, OriginLong, Notes )
+}
+
+
+#Can add additional rows manually, but also can be hooked onto a CSV read, interactive doc, etc, or left out for main create function.
+add_row_to_entry = function(Art_DF ,
+                            OwnName="Empty_For_Now", OwnDuration_years="Empty_For_Now",
+                            OwnLoc="Empty_For_Now", OwnLat="Empty_For_Now",
+                            OwnLong="Empty_For_Now", DescUpdate="Empty_For_Now", 
+                            Notes="Empty_For_Now"){
+  Name=Art_DF$Name[1]
+  ImageLink=Art_DF$ImageLink[1]
+  Origin = Art_DF$Origin[1]
+  OriginLat= Art_DF$OriginLat[1]
+  OriginLong=Art_DF$OriginLong[1]
+  
+  
+  
+  
+  Art_DF2 <- data.frame(Name, ImageLink, OwnName, OwnDuration_years, OwnLoc, OwnLat, OwnLong, DescUpdate, Origin, OriginLat, OriginLong, Notes )
+  
+  Extended_Art_DF = rbind(Art_DF, Art_DF2)
+}
+
+
+
+
+
+#function that uses leaflet to create map. We can create more complex popups (length of stay, previous owner, etc), this is just a tech demo. 
+
+create_map = function(Art_DF){
+m <- leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=Art_DF$OwnLong, lat=Art_DF$OwnLat, popup= Art_DF$OwnName) %>%
+    addCircles(lng=Art_DF$OriginLong[1], lat=Art_DF$OriginLat[1], popup= paste("Origin:",Art_DF$Origin[1]), color = "Orange")
+  
+  # Print the map
+
+
+  return(m)
+  
+}
+
+```
+```{r tester_df, include=FALSE}
+
+#We can automate this according to R's work. 
+Rosetta_DF = create_dataframe(Name="Rosetta Stone",
+                              #change image link with proper path as needed, or we can use relative paths later. 
+                              ImageLink="/Artifact-Travelogues-/The Rosetta Stone/rosettastone.jpg",
+                              OwnName="The British Museum", OwnDuration_years=220, OwnLoc="London, England", OwnLat=51.519466,
+                              OwnLong=-0.1268406, Origin="Memphis, Egypt", OriginLat = 29.844722, OriginLong = 31.250833,
+                              Notes="The Rosetta Stone features writing in Greek, Latin, and Egyptian.")
+
+
+
+
+Rosetta_DF <- add_row_to_entry(Rosetta_DF, OwnName = "Rochester Fake Museum", OwnLoc = "Rochester, New York", OwnDuration_years = 3, OwnLat = 43.161030, OwnLong = -77.610924  )
+
+
+
+
+
+Rosetta_Map <- create_map(Rosetta_DF)
+
+
+
+
+## Can automate text generation below through a loop, but this is just to make sure it matches expectations
+```
+
+
+# `r Rosetta_DF$Name[1]` Entry
+
+
+## **Artifact Name: `r Rosetta_DF$Name[1]`**
+
+
+![Image of `r Rosetta_DF$Name[1]` ](`r Rosetta_DF$ImageLink[1]`)
+
+
+## Note 1
+
+### Current owner(s): `r Rosetta_DF$OwnName[1]`
+
+Owner Location: `r Rosetta_DF$OwnLoc[1]`
+
+Duration of Ownership (years): `r Rosetta_DF$OwnDuration_years[1]` 
+
+Notes: `r Rosetta_DF$Notes[1]`
+
+
+## Note 2:
+
+### Previous owner(s): `r Rosetta_DF$OwnName[2]`
+
+Owner Location: `r Rosetta_DF$OwnLoc[2]`
+
+Duration of Ownership (years): `r Rosetta_DF$OwnDuration_years[2]`
+
+
+
+
+
+
+## Map of Locations which held Artifact: `r Rosetta_DF$Name[1]`
+
+
+`r Rosetta_Map`
