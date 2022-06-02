@@ -59,7 +59,7 @@ function fillPage(responseData) {
         let tdName = tr.insertCell()
         tdName.appendChild(a)
 
-        tr.insertCell().appendChild(document.createTextNode(value.attributes.description))
+        tr.insertCell().innerHTML = value.attributes.description
         tr.insertCell().appendChild(document.createTextNode(value.attributes.origin))
         tr.insertCell().appendChild(document.createTextNode(value.attributes.publishedAt))
         tr.insertCell().appendChild(document.createTextNode(value.attributes.updatedAt))
