@@ -24,7 +24,7 @@ The project will use Strapi in to store data. Fields include:
 3. Use websites and other accessible online sources.
 
 ## Documenting external sources 
-* For now, include the links to websites that you used at the bottom of each artifact entry 
+* List sources in point-form at the bottom of each "Description"
 
        
 ## Link to the Github Pages:
