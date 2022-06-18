@@ -1,5 +1,5 @@
 # Artifact-Travelogues-
-This project documents the movement of ancient artifacts throughout time and makes it available for public access. This project uses very basic HTML and CSS, so it is beginner and non-programmer friendly. Contributors who are more comfortable with code are encouraged to make suggestions to improve the format, beginning in the discussions threads.  
+This project documents the movement of artifacts throughout time and makes it available for public access. The use of a Strapi database makes contributions beginner and non-programmer friendly. Contributors who are more comfortable with code are encouraged to make suggestions to improve the format, beginning in the discussions threads.  
 
 ## Organization 
 The project will use Strapi in to store data. Fields include:
