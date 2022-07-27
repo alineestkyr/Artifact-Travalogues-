@@ -27,10 +27,10 @@ The project will use Strapi in to store data. Fields include:
 * List sources in point-form at the bottom of each "Description"
 
 Example of Citation
-Napoleon's soldiers were required to obtain any artifacts of cultural significance. Pierre-François Bouchard took the artifact to Cairo. [1]
+* Napoleon's soldiers were required to obtain any artifacts of cultural significance. Pierre-François Bouchard took the artifact to Cairo. [1]
 
 Example of Corresponding Footnote:
-[1] CHICAGO CITATION STYLE https://www.britannica.com/topic/Rosetta-Stone
+* [1] CHICAGO CITATION STYLE https://www.britannica.com/topic/Rosetta-Stone
 
        
 ## Link to the Github Pages:
